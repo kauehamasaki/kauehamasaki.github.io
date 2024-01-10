@@ -4,7 +4,7 @@
 # NECESSARY for Prologue to work correctly:
 #
 
-remote_theme: chrisbobbe/jekyll-theme-prologue
+theme: jekyll-theme-prologue
 collections: [sections]
 #
 # They activate the theme and tell Jekyll to find your homepage content
