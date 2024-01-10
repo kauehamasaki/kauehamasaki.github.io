@@ -4,7 +4,7 @@
 
 ![Prologue Theme](assets/images/screenshot.png "Prologue Theme Screenshot")
 
-This is Prologue, a simple, single page responsive site template from [HTML5 UP](https://html5up.net/prologue), now available as a blog-aware Jekyll theme from [Chris Bobbe](https://chrisbobbe.github.io). It features a clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+This is my portfolio page made with [HTML5 UP](https://html5up.net/prologue), now available as a blog to post the designs i did. It features a clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
 * Build your homepage with **custom scrolly sections** in the _sections folder
