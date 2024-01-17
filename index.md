@@ -3,9 +3,8 @@
 
 <head>
 	<meta charset="UTF-8"/>
-    <title> Kaue Hamasaki  </title>
+    title= Kaue Hamasaki
 	<link rel="stylesheet" type="text/css" href="_css/design.css">
-	<script language= "javascript" src = "_javascript/funcoes.js"></script>
 </head>
 	
 <body>
