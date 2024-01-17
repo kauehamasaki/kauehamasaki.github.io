@@ -3,13 +3,12 @@
 
 <head>
 	<meta charset="UTF-8"/>
-    title= Kaue Hamasaki
 	<link rel="stylesheet" type="text/css" href="_css/design.css">
 </head>
 	
 <body>
 <div class="logo-menu-container">
-    <div class="logo"><img id="Logo" src="_imagens/Logo Taverna do Baldur.png" alt="logo"></div>
+    <div class="logo"><img id="Logo" src="_imagens/LOGO01.jpg" alt="logo"></div>
 	
     <hgroup>		
 		<h2 align="center">D &amp; D e Board Games</h2>
