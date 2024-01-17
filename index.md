@@ -11,7 +11,7 @@
     <div class="logo"><img id="Logo" src="_imagens/LOGO01.jpg" alt="logo"></div>
 	
     <hgroup>		
-		<h2 align="center">D &amp; D e Board Games</h2>
+		<h2 align="center">Portfólio digital</h2>
 	 <nav id="menu">
     	<ul>
         	<li onMouseOver="mudafoto('_imagens/chest.png')" onMouseOut="mudafoto('_imagens/parlamento.png')"><a href="chest.html">Baú de compras</a></li>
