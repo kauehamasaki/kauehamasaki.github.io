@@ -177,6 +177,10 @@ h1{
 	justify-content:center;
 }
 
+#social{
+	padding:4px;
+}
+
 p{
 	color: black;
 }
