@@ -161,8 +161,18 @@ h1{
 	color:white;
 }
 
+.c1 h3{
+	margin-left:40px;	
+}
+
+.c1 h4{
+	margin-left:40px;	
+}
+
 .c1 p{
 	margin-left:50px;
+	margin-right:50px;
+	padding:10px;
 }
 
 #row3{
