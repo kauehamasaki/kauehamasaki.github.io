@@ -1,77 +1,95 @@
 <html lang="pt-br">
 
-<head>
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="design.css"/>
-    <script language= "javascript" src = "javascript/funcoes.js"></script>
-</head>
-	
-<body>
-	<hgroup>    
-		<div class="logo-menu-container">
-			<div class="logo"> <img src="imagens/LOGO01.jpg"/> </div>
-        </div>
-		<h2 align="center">Portfólio digital</h2>
- 	<nav id="menu">
-		<ul>
-			<li onMouseOver="mudafoto('imagens/portfolio.png')" onMouseOut="mudafoto('imagens/contato.png')"><a href="index.html">Portfólio</a></li>
-            <li onMouseOver="mudafoto('imagens/curriculo.png')" onMouseOut="mudafoto('imagens/contato.png')"><a href="curriculo.html">Currículo</a></li>
-			<li onMouseOver="mudafoto('imagens/sobre.png')" onMouseOut="mudafoto('imagens/contato.png')"><a href="sobre.html">Sobre</a></li>
-			<li onMouseOver="mudafoto('imagens/3d.png')" onMouseOut="mudafoto('imagens/contato.png')"><a href="3d.html">3D</a></li>
-			<li onMouseOver="mudafoto('imagens/contato.png')" onMouseOut="mudafoto('imagens/contato.png')"><a href="contato.html">Contato</a></li>       
-		</ul>
-	</nav>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="design.css"/>
+		<script language= "javascript" src = "javascript/funcoes.js"></script>
+	</head>
+		
+	<body>
+			<hgroup>    
+				<div class="logo-menu-container">
+					<div class="logo"> <img src="imagens/LOGO01.jpg"/> </div>
+				</div>
+				<h2 align="center">Portfólio digital</h2>
+			<nav id="menu">
+				<ul>
+					<li onMouseOver="mudafoto('imagens/portfolio.png')" onMouseOut="mudafoto('imagens/contato.png')">
+						<a href="index.html">Portfólio</a>
+					</li>
+					<li onMouseOver="mudafoto('imagens/curriculo.png')" onMouseOut="mudafoto('imagens/contato.png')">
+						<a href="curriculo.html">Currículo</a>
+					</li>
+					<li onMouseOver="mudafoto('imagens/sobre.png')" onMouseOut="mudafoto('imagens/contato.png')">
+						<a href="sobre.html">Sobre</a>
+					</li>
+					<li onMouseOver="mudafoto('imagens/3d.png')" onMouseOut="mudafoto('imagens/contato.png')">
+						<a href="3d.html">3D</a>
+					</li>
+					<li onMouseOver="mudafoto('imagens/contato.png')" onMouseOut="mudafoto('imagens/contato.png')">
+						<a href="contato.html">Contato</a>
+					</li>       
+				</ul>
+			</nav>
+				</div>
+			</hgroup>
+				<img id= "icone" src="imagens/contato.png">
+			
+		 </div>
+		 
+		 <div class="content">
+		 
+			 <h1>Contato</h1>
+			 <h2 id="row1"> Redes Sociais</h2>
+			 
+			 <ul class="centralizado">
+						<a id="social" href="https://www.linkedin.com/in/kauehamasaki/" target= "_blank">
+							<img src="imagens/linkedin.png" height="80" width="80">
+						</a>
+
+						<a id="social" href="https://www.behance.net/kauehamasaki" target= "_blank">
+							<img src="imagens/behance.png" height="80" width="80">
+						</a>
+
+						<a id="social" href="https://www.deviantart.com/kauehama/gallery" target= "_blank">
+							<img src="imagens/deviantart.png" height="80" width="80">
+						</a>
+
+						<a id="social" href="http://instagram.com/piratakauecpr" target= "_blank">
+							<img src="imagens/instagram.png" height="80" width="80">
+						</a>
+						
+						<a id="social" href="https://wa.me/5511997539474" target= "_blank">
+							<img src="imagens/whatsapp.png" height="80" width="80">
+						</a>
+						
+			</ul>
+				<h2 id="row1"> Email</h2>
+			<ul> 
+				<form action="enviar.php" method="post">
+					<div class="col-md-9">
+					  <div class="col-md-4">
+						<input type="text" name="name" id="name" class="name" placeholder="Seu Nome">
+					  </div>
+					  <div class="col-md-4">
+						<input type="text" name="email" id="email" class="email" placeholder="Seu E-mail">
+					  </div>
+					  <div class="col-md-4">
+						<input type="text" name="subject" id="subject" class="subject" placeholder="Assunto">
+					  </div>
+					  <div class="col-md-4">
+						<textarea name="message" cols="100" rows="5" class="message" placeholder="Sua mensagem..." id="message"></textarea>
+					  </div>
+					  <div class="col-md-6">
+						<input type="submit" name="send" value="Enviar Mensagem" id="submit" class="button templatemo_sendbtn">
+					  </div>
+					</div>
+				</form>
+			</ul>
+
+			<footer id="rodape">
+				<p id="rodape">Copyright &copy; 2023 - by Kauê Hamasaki</p>
+			</footer>
 		</div>
-	</hgroup>
-		<img id= "icone" src="imagens/contato.png">
-    
- </div>
- 
- <div class="content">
- 
- <h1>Contato</h1>
- <h2 id="row1"> Redes Sociais</h2>
- 
- <ul class="centralizado">
- 			<a id="social" href="https://www.linkedin.com/in/kauehamasaki/" target= "_blank"><img src="imagens/linkedin.png" height="100" width="100"></a>
-
-
-    		<a id="social" href="https://www.behance.net/kauehamasaki" target= "_blank"><img src="imagens/behance.png" height="100" width="100"></a>
-
-
-    		<a id="social" href="https://www.deviantart.com/kauehama/gallery" target= "_blank"><img src="imagens/deviantart.png" height="100" width="100"></a>
-
-			<a id="social" href="http://instagram.com/piratakauecpr" target= "_blank"><img src="imagens/instagram.png" height="100" width="100"></a>
-</ul>
-
- 
- <h2 id="row1"> Email</h2>
-<ul> 
-<form action="enviar.php" method="post">
-    <div class="col-md-9">
-      <div class="col-md-4">
-        <input type="text" name="name" id="name" class="name" placeholder="Seu Nome">
-      </div>
-      <div class="col-md-4">
-        <input type="text" name="email" id="email" class="email" placeholder="Seu E-mail">
-      </div>
-      <div class="col-md-4">
-        <input type="text" name="subject" id="subject" class="subject" placeholder="Assunto">
-      </div>
-      <div class="col-md-4">
-        <textarea name="message" cols="100" rows="10" class="message" placeholder="Sua mensagem..." id="message"></textarea>
-      </div>
-      <div class="col-md-6">
-        <input type="submit" name="send" value="Enviar Mensagem" id="submit" class="button templatemo_sendbtn">
-      </div>
-    </div>
-  </form>
-
-</ul>
-
-<footer id="rodape">
-<p id="rodape">Copyright &copy; 2023 - by Kauê Hamasaki</p>
-</footer>
-</div>
-</body>
+	</body>
 </html>
