@@ -207,16 +207,47 @@ p{
 	justify-content: center;
 }
 
-#contato_form{
-  width:500px;
-  min-height:175px;
-  color:#999;
-  margin:auto;
+.contato_form input{
+  width:100%;
+  padding: 10px 10px;
+  margin-bottom: 10px;
 }
+
+.contato_form textarea{
+	width:100%;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+
+}
+
+.contato_form select{
+	width:40%;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+
 .asteristico{
   color:#F00;
 }
 
+#send{
+	background-color: green;
+	color: white;
+	font-size:16pt;
+	border: none;
+	width: 100px;
+	height: 40px;	
+}	
+
+#clear{
+	background-color: red;
+	color: white;
+	font-size:16pt;
+	border: none;
+	width: 100px;
+	height: 40px;	
+}	
+	
 #rodape{
 	color: black;
 	text-align:center;
